@@ -11,6 +11,10 @@ def main():
     print("The gates are opening...")
 
     goblin = Goblin("Gobble")
+<<<<<<< HEAD
+=======
+    goblin2=Goblin("Buford")
+>>>>>>> Add-Goblin
 
     print(f"{goblin.name} enters the arena with {goblin.health} health.")
     print("But no hero has answered the call... yet.")
