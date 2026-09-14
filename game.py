@@ -1,4 +1,5 @@
 from goblin import Goblin
+from hero import Hero
 
 
 ARENA_NAME = "The Battle Circle"
@@ -15,6 +16,9 @@ def main():
 
     print(f"{goblin.name} enters the arena with {goblin.health} health.")
     print("But no hero has answered the call... yet.")
+
+    briar = Hero("Briar")
+    briarAttacknumber=briar.attack()
 
 
 if __name__ == "__main__":
