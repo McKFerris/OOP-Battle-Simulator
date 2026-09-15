@@ -15,10 +15,11 @@ def main():
     goblin2=Goblin("Buford")
 
     print(f"{goblin.name} enters the arena with {goblin.health} health.")
-    print("But no hero has answered the call... yet.")
-
+    
     briar = Hero("Briar")
     briarAttacknumber=briar.attack()
+    goblin.take_damage(briarAttacknumber)
+    briar.battlecry()
 
 
 if __name__ == "__main__":
